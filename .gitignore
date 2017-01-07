@@ -1,0 +1,10 @@
+Builds/
+Temp/
+Library/
+obj/
+._*
+*.sln
+*.csproj
+*.
+*.userprefs
+Assets/Lib/MGFX
