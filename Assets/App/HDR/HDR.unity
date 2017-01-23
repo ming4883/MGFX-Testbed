@@ -73,7 +73,7 @@ LightmapSettings:
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
     m_StationaryBakeMode: 3
-  m_LightingDataAsset: {fileID: 112000001, guid: 84062d0e9a07b95418430c1d768501f4,
+  m_LightingDataAsset: {fileID: 112000002, guid: 84062d0e9a07b95418430c1d768501f4,
     type: 2}
   m_RuntimeCPUUsage: 25
   m_ShadowMaskMode: 2
