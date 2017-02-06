@@ -189,6 +189,7 @@ MonoBehaviour:
   flows:
   - {fileID: 1379537348}
   size: {x: 10, y: 10}
+  resolution: {x: 64, y: 64}
 --- !u!4 &1180168909
 Transform:
   m_ObjectHideFlags: 0
@@ -229,6 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 673ddd3c7c15c442189e4be7d0dd2def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delta: 0.125
   points:
   - {x: -0.46959972, y: 0, z: -1.8479626}
   - {x: -1.4936049, y: 0, z: 0.34964508}
