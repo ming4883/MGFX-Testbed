@@ -189,7 +189,7 @@ MonoBehaviour:
   flows:
   - {fileID: 1379537348}
   size: {x: 10, y: 10}
-  resolution: {x: 64, y: 64}
+  resolution: {x: 32, y: 32}
 --- !u!4 &1180168909
 Transform:
   m_ObjectHideFlags: 0
@@ -232,9 +232,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delta: 0.125
   points:
-  - {x: -0.46959972, y: 0, z: -1.8479626}
-  - {x: -1.4936049, y: 0, z: 0.34964508}
-  - {x: -0.2493236, y: 0, z: 2.7637782}
+  - {x: 2.0307233, y: 0, z: -1.8479626}
+  - {x: -2.9333978, y: 0, z: -0.74561477}
+  - {x: 1.9908915, y: 0, z: 2.8726192}
+  - {x: -3.6046104, y: 0, z: 6.492132}
 --- !u!4 &1379537349
 Transform:
   m_ObjectHideFlags: 0
@@ -242,7 +243,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1379537347}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
