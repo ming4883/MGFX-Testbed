@@ -254,7 +254,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_FlowMap: {fileID: 1180168908}
-  m_Cycle: 16
+  m_Cycle: 64
+  m_Speed: 8
+  m_Scale: 0.1
 --- !u!1 &1179284510
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +332,9 @@ MonoBehaviour:
   - {fileID: 1179284511}
   minimumDistance: 3
   size: {x: 10, y: 10}
-  resolution: {x: 32, y: 32}
+  resolution: {x: 64, y: 64}
+  blurSize: 4
+  blurIterations: 1
   Filename: TestFlowMap01.png
 --- !u!4 &1180168909
 Transform:
@@ -357,7 +361,7 @@ GameObject:
   - component: {fileID: 1379537349}
   - component: {fileID: 1379537348}
   m_Layer: 0
-  m_Name: WaterFlowZ
+  m_Name: WaterFlowU
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,9 +380,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   points:
   - {x: 0.9901134, y: 0, z: -1.685152}
-  - {x: -2.9333978, y: 0, z: -0.74561477}
-  - {x: 0.47405624, y: 0, z: 2.8726192}
-  - {x: -3.9607143, y: -1.0673008, z: 6.0236096}
+  - {x: -0.45591062, y: 0, z: 1.9202533}
+  - {x: -2.8490157, y: 0, z: 3.8303852}
+  - {x: -4.0942516, y: -1.0673008, z: -1.04615}
 --- !u!4 &1379537349
 Transform:
   m_ObjectHideFlags: 0
