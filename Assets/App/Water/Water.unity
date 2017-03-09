@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 236701283}
   - component: {fileID: 236701282}
   m_Layer: 0
-  m_Name: WaterFlowLine
+  m_Name: FlowOuter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,10 +164,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 673ddd3c7c15c442189e4be7d0dd2def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  strength: 1
+  strength: 0
   points:
-  - {x: 0, y: 0, z: 3}
-  - {x: 0, y: 0, z: -3}
+  - {x: 4.136862, y: 0, z: 4.671931}
+  - {x: 4.5773144, y: 0, z: -4.4564915}
+  - {x: -4.6244593, y: 0, z: -4.5026946}
+  - {x: -4.4792547, y: 0, z: 4.558195}
+  - {x: 4.0040665, y: 0, z: 4.733955}
 --- !u!4 &236701283
 Transform:
   m_ObjectHideFlags: 0
@@ -175,7 +178,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 236701281}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1475853635}
@@ -340,7 +343,7 @@ GameObject:
   - component: {fileID: 947818472}
   - component: {fileID: 947818471}
   m_Layer: 0
-  m_Name: WaterFlowU
+  m_Name: FlowInner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -359,10 +362,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strength: 1
   points:
-  - {x: 0.9901134, y: 0, z: -1.685152}
-  - {x: -0.45591062, y: 0, z: 1.9202533}
-  - {x: -2.8490157, y: 0, z: 3.8303852}
-  - {x: -4.0942516, y: -1.0673008, z: -1.04615}
+  - {x: 1.9965513, y: 0, z: -1.7303529}
+  - {x: 2.0363593, y: 0, z: 1.6676335}
+  - {x: -2.0309782, y: 0, z: 1.5833864}
+  - {x: -2.2998786, y: -1.0673008, z: -0.8375919}
 --- !u!4 &947818472
 Transform:
   m_ObjectHideFlags: 0
@@ -370,7 +373,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 947818470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.28999996, y: 0, z: -1.73}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1475853635}
@@ -635,7 +638,7 @@ MonoBehaviour:
   minimumDistance: 3
   size: {x: 10, y: 10}
   resolution: {x: 64, y: 64}
-  blurSize: 4
+  blurSize: 2
   blurIterations: 1
   Filename: TestFlowMap02.png
 --- !u!4 &1475853635
