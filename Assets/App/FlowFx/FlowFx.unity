@@ -423,7 +423,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: f86997db7edffc94bb0232e58a0c527c, type: 2}
+  - {fileID: 2100000, guid: 4172e6ad3cb0b403bb663e2971b7ac72, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -781,7 +781,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1484022102
+  randomSeed: 1979495263
   InitialModule:
     serializedVersion: 3
     enabled: 1
