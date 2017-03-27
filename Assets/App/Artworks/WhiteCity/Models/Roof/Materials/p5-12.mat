@@ -8,11 +8,12 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: p5-12
   m_Shader: {fileID: 4800000, guid: e6e364c1757064c3d9ada67f90004c35, type: 3}
-  m_ShaderKeywords: _EMISSION _GI_IRRADIANCE_ON _REALTIME_LIGHTING_ON _REFLECTION_PROBES_ON
-    _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_ShaderKeywords: _EMISSION _GI_IRRADIANCE_ON _REALTIME_LIGHTING_ON _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -75,6 +76,8 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _DecalOffset: 0.0001
+    - _DecalOn: 0
     - _DetailNormalMapScale: 1
     - _DiffuseLUTOn: 0
     - _DstBlend: 0
@@ -94,14 +97,18 @@ Material:
     - _Parallax: 0.02
     - _RealtimeLightingOn: 1
     - _ReflectionIntensity: 1
-    - _ReflectionProbesOn: 1
+    - _ReflectionProbesOn: 0
     - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _VertexAnimRotateOn: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GIAlbedoColor: {r: 1, g: 0, b: 0, a: 0}
     - _GIEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 0.5}
+    - _VertexAnimRotateAxis: {r: 1, g: 0, b: 0, a: 0}
+    - _VertexAnimTime: {r: 90, g: 0, b: 0, a: 0}
