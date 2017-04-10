@@ -8,7 +8,8 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: TestComposite
   m_Shader: {fileID: 4800000, guid: e6e364c1757064c3d9ada67f90004c35, type: 3}
-  m_ShaderKeywords: _COMPOSITE_ON _GI_IRRADIANCE_ON _REALTIME_LIGHTING_ON
+  m_ShaderKeywords: _COMPOSITE_EROSION_ON _COMPOSITE_NOISE_ON _COMPOSITE_ON _GI_IRRADIANCE_ON
+    _REALTIME_LIGHTING_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_CustomRenderQueue: -1
@@ -22,7 +23,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CompositeTex:
-        m_Texture: {fileID: 2800000, guid: 449d38dc743aea44eb0b79bb4d3912c3, type: 3}
+        m_Texture: {fileID: 2800000, guid: a51044dfe95257548b466bc35528b878, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -54,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 426137a77b8e3b64888c93516cb33ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: f5d1de47f0f760544a5596ceb8cc895f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
@@ -79,6 +80,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
+    - _CompositeErosion: 1
+    - _CompositeErosionOn: 1
     - _CompositeNoiseOn: 0
     - _CompositeOn: 1
     - _Cutoff: 0.5
@@ -112,6 +115,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CompositeErosion: {r: 1, g: 1, b: 1, a: 0.5}
     - _CompositeNoise: {r: 1, g: 1, b: 1, a: 0.5}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GIAlbedoColor: {r: 1, g: 1, b: 1, a: 0}
