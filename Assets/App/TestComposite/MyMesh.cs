@@ -63,7 +63,7 @@ public class MyMesh : MonoBehaviour {
 		Color[] _clr = new Color[4];
 		_clr[0] = new Color(1, 1, 1, 0);
 		_clr[1] = new Color(1, 1, 1, 1);
-		_clr[2] = new Color(1, 1, 1, 1);
+		_clr[2] = new Color(1, 1, 1, 0);
 		_clr[3] = new Color(1, 1, 1, 1);
 
 		_mesh.colors = _clr;
