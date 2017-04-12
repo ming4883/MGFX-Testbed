@@ -43,21 +43,23 @@ public class MyMesh : MonoBehaviour {
 		_mesh.normals = _nor;
 
 		// texcoord
-		Vector2[] _uv1 = new Vector2[4];
-		_uv1[0] = new Vector2(0, 0);
-		_uv1[1] = new Vector2(1, 0);
-		_uv1[2] = new Vector2(0, 1);
-		_uv1[3] = new Vector2(1, 1);
+		Vector2[] _uv12 = new Vector2[4];
+		_uv12[0] = new Vector2(0, 0);
+		_uv12[1] = new Vector2(1, 0);
+		_uv12[2] = new Vector2(0, 1);
+		_uv12[3] = new Vector2(1, 1);
 
-		_mesh.uv = _uv1;
+		_mesh.uv = _uv12;
+		//_mesh.uv2 = _uv12;
 
-		Vector2[] _uv2 = new Vector2[4];
-		_uv2[0] = new Vector2(0, 0);
-		_uv2[1] = new Vector2(2, 0);
-		_uv2[2] = new Vector2(0, 2);
-		_uv2[3] = new Vector2(2, 2);
+		float _t = 4;
+		Vector2[] _uv3 = new Vector2[4];
+		_uv3[0] = new Vector2( 0, 0);
+		_uv3[1] = new Vector2(_t, 0);
+		_uv3[2] = new Vector2( 0, _t);
+		_uv3[3] = new Vector2(_t, _t);
 
-		_mesh.uv2 = _uv2;
+		_mesh.uv3 = _uv3;
 
 		// color
 		Color[] _clr = new Color[4];
