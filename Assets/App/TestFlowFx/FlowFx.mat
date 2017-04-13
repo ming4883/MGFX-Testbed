@@ -62,6 +62,12 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Flow1: 0
+    - _Flow2: 0
+    - _FlowBlending: 0.5
+    - _FlowLayer1: 0
+    - _FlowLayer2: 1
+    - _FlowTime: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
